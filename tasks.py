@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-with open("data.json") as f:
+with open("data.json", encoding='utf-8') as f:
     data = json.load(f)
 
 # Task 1. Find the shipping cost rate for each warehouse
